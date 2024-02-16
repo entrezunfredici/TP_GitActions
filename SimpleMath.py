@@ -9,4 +9,4 @@ class SimpleMath:
     print("=======================================")
     def rem(a, b):
         return a-b
-    
+

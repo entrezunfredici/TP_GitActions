@@ -18,3 +18,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "run test class"
       - run: python -m unittest TestSimpleMath.py
+      - run: echo "linter"
+      - run: pylint SimpleMath.py
+      - run: pylint TestSimpleMath.py
