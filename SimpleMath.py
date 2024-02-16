@@ -7,3 +7,6 @@ class SimpleMath:
         return a+b
     print(add(a, b))
     print("=======================================")
+    def rem(a, b):
+        return a-b
+    
